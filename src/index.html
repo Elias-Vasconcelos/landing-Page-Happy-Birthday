@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <title>Timer New-Year</title>
+    <link rel="stylesheet" href="./styles/main.scss" />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+  </head>
+  <body>
+    <header class="header">
+      <div class="header-hero">
+        <img
+          src=".//styles/img/Aniversario.avif"
+          alt="new-year__Logo"
+          class="header-hero__img"
+        />
+        <p class="header-hero__text">
+          O evento mais aguardado do ano! Venha comemorar o
+          <b>o Meu aniversario!</b> no parque ibirapuera em
+          <b><span id="contador"> </span> </b>
+        </p>
+      </div>
+      <ul class="header-lsit">
+        <li class="header-lsit__item">
+          <h3 class="header-lsit__item__title">Local</h3>
+          <p class="header-lsit__item__text">
+            Av. Pedro Álvares Cabral - Vila Mariana, São Paulo - SP, 04094-050
+          </p>
+        </li>
+        <li class="header-lsit__item">
+          <h3 class="header-lsit__item__title">Preço</h3>
+          <p class="header-lsit__item__text">A partir de R$ 50,00</p>
+        </li>
+        <li class="header-lsit__item">
+          <h3 class="header-lsit__item__title">Quando</h3>
+          <p class="header-lsit__item__text">
+            Nesta terça-feira dia 31 de dezembro de 2024
+          </p>
+        </li>
+        <button class="header__button">Garantir o seu ingresso</button>
+      </ul>
+    </header>
+    <section class="events">
+      <ul class="events-list">
+        <li class="events-list__item" data-aos="fade-right">
+          <div class="events-list__item__description">
+            <h2 class="events-list__item__description__tile">Lazer</h2>
+            <p class="events-list__item__description__text">
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+              Reprehenderit inventore ipsa deserunt voluptates officiis delectus
+              eveniet rerum necessitatibus illo, unde neque, molestiae, quam
+              adipisci corrupti. Pariatur deleniti nesciunt numquam alias!
+            </p>
+          </div>
+          <img
+            src="./styles/img/Lazer.jpg"
+            alt="Lazer"
+            class="events-list__item__img"
+          />
+        </li>
+        <li
+          class="events-list__item events-list__item-reverse"
+          data-aos="fade-left"
+        >
+          <img
+            src="./styles/img/Fogos.webp"
+            alt="fogos"
+            class="events-list__item__img"
+          />
+          <div class="events-list__item__description">
+            <h2 class="events-list__item__description__tile">fogos</h2>
+            <p class="events-list__item__description__text">
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+              Reprehenderit inventore ipsa deserunt voluptates officiis delectus
+              eveniet rerum necessitatibus illo, unde neque, molestiae, quam
+              adipisci corrupti. Pariatur deleniti nesciunt numquam alias!
+            </p>
+          </div>
+        </li>
+        <li class="events-list__item" data-aos="fade-right">
+          <div class="events-list__item__description">
+            <h2 class="events-list__item__description__tile">Atraçoes</h2>
+            <p class="events-list__item__description__text">
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+              Reprehenderit inventore ipsa deserunt voluptates officiis delectus
+              eveniet rerum necessitatibus illo, unde neque, molestiae, quam
+              adipisci corrupti. Pariatur deleniti nesciunt numquam alias!
+            </p>
+          </div>
+          <img
+            src="./styles/img/Musica.jpg"
+            alt="Musica"
+            class="events-list__item__img"
+          />
+        </li>
+        <li
+          class="events-list__item events-list__item-reverse"
+          data-aos="fade-left"
+        >
+          <img
+            src="./styles/img/show.jpg"
+            alt="show"
+            class="events-list__item__img"
+          />
+          <div class="events-list__item__description">
+            <h2 class="events-list__item__description__tile">Atraçoes</h2>
+            <p class="events-list__item__description__text">
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+              Reprehenderit inventore ipsa deserunt voluptates officiis delectus
+              eveniet rerum necessitatibus illo, unde neque, molestiae, quam
+              adipisci corrupti. Pariatur deleniti nesciunt numquam alias!
+            </p>
+          </div>
+        </li>
+      </ul>
+    </section>
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+    <script src="./styles/scripts/main.js"></script>
+  </body>
+</html>
